@@ -4,7 +4,7 @@ This folder contains my solutions for Harvard CS50x Week 1 programming assignmen
 
 ## Assignments
 
-- Mario (Less Comfortable)
+- Mario
 - Cash
 
 ## Concepts Learned
