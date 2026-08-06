@@ -1,0 +1,14 @@
+sort1:
+Bubble Sort
+Reason:
+Bubble sort is much faster when the input is already sorted because it can stop early if no swaps are needed.
+
+sort2:
+Merge Sort
+Reason:
+Merge sort is the fastest algorithm and its running time stays efficient regardless of the initial order of the data.
+
+sort3:
+Selection Sort
+Reason:
+Selection sort performs almost the same amount of work regardless of whether the input is random, sorted, or reversed.
