@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia</title>
+
+        <script>
+            // Check Part 1 answer
+            function checkAnswer(button, correct)
+            {
+                let result = document.querySelector("#part1-result");
+
+                if (correct)
+                {
+                    button.style.backgroundColor = "green";
+                    result.textContent = "Correct!";
+                }
+                else
+                {
+                    button.style.backgroundColor = "red";
+                    result.textContent = "Incorrect";
+                }
+            }
+
+            // Check Part 2 answer
+            function checkFreeResponse()
+            {
+                let answer = document.querySelector("#free-response");
+                let result = document.querySelector("#part2-result");
+
+                if (answer.value.trim().toLowerCase() === "python")
+                {
+                    answer.style.backgroundColor = "green";
+                    result.textContent = "Correct!";
+                }
+                else
+                {
+                    answer.style.backgroundColor = "red";
+                    result.textContent = "Incorrect";
+                }
+            }
+        </script>
+    </head>
+
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+
+            <!-- Part 1 -->
+            <div class="section">
+                <h2>Part 1: Multiple Choice</h2>
+
+                <h3>What is the capital of Pakistan?</h3>
+
+                <button onclick="checkAnswer(this, false)">Lahore</button>
+                <button onclick="checkAnswer(this, false)">Karachi</button>
+                <button onclick="checkAnswer(this, true)">Islamabad</button>
+                <button onclick="checkAnswer(this, false)">Peshawar</button>
+
+                <p id="part1-result"></p>
+            </div>
+
+            <!-- Part 2 -->
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+
+                <h3>What programming language is known for its simple and readable syntax?</h3>
+
+                <input type="text" id="free-response">
+
+                <button onclick="checkFreeResponse()">Confirm Answer</button>
+
+                <p id="part2-result"></p>
+            </div>
+
+        </div>
+    </body>
+</html>
