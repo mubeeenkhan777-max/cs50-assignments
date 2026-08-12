@@ -1,0 +1,39 @@
+Homepage Project Specification
+
+Project Title:
+Mubeen's Technology Journey
+
+Description:
+This website is a personal homepage about my journey into technology, software engineering, cybersecurity, and game development.
+
+Pages:
+1. index.html - Main homepage
+2. about.html - Information about me and my learning
+3. cybersecurity.html - My cybersecurity interests and goals
+4. games.html - My interests and goals in game development
+
+Technologies Used:
+- HTML
+- CSS
+- JavaScript
+
+Features:
+- Navigation between multiple webpages
+- Responsive webpage structure
+- Styled navigation bar and content sections
+- JavaScript interactive buttons
+- Personal information and technology interests
+
+JavaScript Interactions:
+- Home page displays a message when the button is clicked.
+- Cybersecurity page displays a message when the button is clicked.
+- Game Development page displays a message when the button is clicked.
+
+Files:
+- index.html
+- about.html
+- cybersecurity.html
+- games.html
+- styles.css
+- script.js
+- specification.txt

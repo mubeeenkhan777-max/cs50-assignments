@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Development | Mubeen</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <h2>Mubeen</h2>
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="cybersecurity.html">Cybersecurity</a>
+        <a href="games.html">Game Development</a>
+    </nav>
+
+    <main class="hero">
+        <h1>Game Development</h1>
+
+        <p>
+            Game development is another area of technology that interests me.
+            I enjoy the idea of combining programming, creativity, problem-solving,
+            and design to create interactive experiences.
+        </p>
+
+        <h2>My Goals</h2>
+
+        <ul>
+            <li>Learn game programming</li>
+            <li>Understand game engines</li>
+            <li>Build my own small games</li>
+            <li>Improve my programming skills through projects</li>
+        </ul>
+
+        <button onclick="showGameMessage()">Click Me</button>
+
+        <p id="game-message"></p>
+    </main>
+
+    <footer>
+        <p>© 2026 Mubeen</p>
+    </footer>
+
+    <script>
+        function showGameMessage() {
+            document.querySelector("#game-message").textContent =
+                "Build, experiment, fail, learn, and create something amazing!";
+        }
+    </script>
+
+</body>
+</html>
